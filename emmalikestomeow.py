@@ -26,13 +26,10 @@ def tweetQuote():
         quoteFile.close()
 
         rChoice = random.randrange(len(quoteList))
-        rTweet = random.randrange(3)
         
-        if rTweet == 0:
-            api.update_status(status=quoteList[rChoice] + "#cats #CatsOfTwitter")
-            return None
-        else:
-            return None
+        api.update_status(status=quoteList[rChoice] + "#cats #CatsOfTwitter")
+        return None
+        
     except IOError:
         return None
         
