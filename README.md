@@ -16,5 +16,8 @@ Instructions
 4. Run emmalikestomeow.py
 
 Description
-	Tweets a cat quote from the quotes list in quotes.txt.
-	
+	tweetPic(): Tweet a random picture from the specified directory.
+	tweetQuote(): Tweet a random quote from quote.txt
+
+References
+1. Original cat quote list from http://www.catsinfo.com/catquotes.html
